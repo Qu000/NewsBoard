@@ -14,6 +14,7 @@
 		5110A6F61FCD04B000ACFFA3 /* _1______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */; };
 		5110A7011FCD12CC00ACFFA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */; };
 		5110A7031FCD151B00ACFFA3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */; };
+		D44E8F4E01274537633ADE24 /* Pods_31______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DD550F4D88D319CCDA9015 /* Pods_31______.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +35,13 @@
 		5110A6EA1FCD04B000ACFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5110A6EC1FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5110A6F11FCD04B000ACFFA3 /* 31-设置导航栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "31-设置导航栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1______Tests.swift"; sourceTree = "<group>"; };
+		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1______Tests.swift; sourceTree = "<group>"; };
 		5110A6F71FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		64DD550F4D88D319CCDA9015 /* Pods_31______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_31______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C99705227FF7771FC73816 /* Pods-31-设置导航栏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.release.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.release.xcconfig"; sourceTree = "<group>"; };
+		9B586F1255E26F9F36B4378C /* Pods-31-设置导航栏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44E8F4E01274537633ADE24 /* Pods_31______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B1C01B266DCBD12A65678E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B586F1255E26F9F36B4378C /* Pods-31-设置导航栏.debug.xcconfig */,
+				96C99705227FF7771FC73816 /* Pods-31-设置导航栏.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5110A6D41FCD04B000ACFFA3 = {
 			isa = PBXGroup;
 			children = (
 				5110A6DF1FCD04B000ACFFA3 /* 31-设置导航栏 */,
 				5110A6F41FCD04B000ACFFA3 /* 31-设置导航栏Tests */,
 				5110A6DE1FCD04B000ACFFA3 /* Products */,
+				00B1C01B266DCBD12A65678E /* Pods */,
+				5B4D5C5524FA4264A85021FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +115,14 @@
 			path = "31-设置导航栏Tests";
 			sourceTree = "<group>";
 		};
+		5B4D5C5524FA4264A85021FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DD550F4D88D319CCDA9015 /* Pods_31______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5110A6FA1FCD04B000ACFFA3 /* Build configuration list for PBXNativeTarget "31-设置导航栏" */;
 			buildPhases = (
+				330BCB860D2C04CAFBAF4E39 /* [CP] Check Pods Manifest.lock */,
 				5110A6D91FCD04B000ACFFA3 /* Sources */,
 				5110A6DA1FCD04B000ACFFA3 /* Frameworks */,
 				5110A6DB1FCD04B000ACFFA3 /* Resources */,
+				DFCA0E07FA4A0AAA2E7EE6C2 /* [CP] Embed Pods Frameworks */,
+				585D50957AAE7F5C0FE386A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +223,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330BCB860D2C04CAFBAF4E39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-31-设置导航栏-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585D50957AAE7F5C0FE386A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCA0E07FA4A0AAA2E7EE6C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5110A6D91FCD04B000ACFFA3 /* Sources */ = {
@@ -355,6 +436,7 @@
 		};
 		5110A6FB1FCD04B000ACFFA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B586F1255E26F9F36B4378C /* Pods-31-设置导航栏.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +451,7 @@
 		};
 		5110A6FC1FCD04B000ACFFA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C99705227FF7771FC73816 /* Pods-31-设置导航栏.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

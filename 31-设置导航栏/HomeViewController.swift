@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+
 // MARK: - 类的声明
 class HomeViewController: UIViewController {
 
