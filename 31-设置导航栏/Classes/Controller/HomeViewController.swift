@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // 1.设置导航栏
         setupNavigationBar()
+        
     }
 
 }

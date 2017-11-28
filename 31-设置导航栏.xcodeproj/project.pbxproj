@@ -12,8 +12,8 @@
 		5110A6E81FCD04B000ACFFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5110A6E71FCD04B000ACFFA3 /* Assets.xcassets */; };
 		5110A6EB1FCD04B000ACFFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5110A6E91FCD04B000ACFFA3 /* LaunchScreen.storyboard */; };
 		5110A6F61FCD04B000ACFFA3 /* _1______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */; };
-		5110A7011FCD12CC00ACFFA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */; };
-		5110A7031FCD151B00ACFFA3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */; };
+		5110A70D1FCD648900ACFFA3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */; };
+		5110A70E1FCD648900ACFFA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A70A1FCD648900ACFFA3 /* HomeViewController.swift */; };
 		D44E8F4E01274537633ADE24 /* Pods_31______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DD550F4D88D319CCDA9015 /* Pods_31______.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,11 +35,11 @@
 		5110A6EA1FCD04B000ACFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5110A6EC1FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5110A6F11FCD04B000ACFFA3 /* 31-设置导航栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "31-设置导航栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1______Tests.swift; sourceTree = "<group>"; };
+		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1______Tests.swift"; sourceTree = "<group>"; };
 		5110A6F71FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
-		64DD550F4D88D319CCDA9015 /* Pods_31______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_31______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		5110A70A1FCD648900ACFFA3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		64DD550F4D88D319CCDA9015 /* Pods_31______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_31______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C99705227FF7771FC73816 /* Pods-31-设置导航栏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.release.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.release.xcconfig"; sourceTree = "<group>"; };
 		9B586F1255E26F9F36B4378C /* Pods-31-设置导航栏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,10 +95,9 @@
 		5110A6DF1FCD04B000ACFFA3 /* 31-设置导航栏 */ = {
 			isa = PBXGroup;
 			children = (
+				5110A7061FCD648900ACFFA3 /* Classes */,
 				5110A6E01FCD04B000ACFFA3 /* AppDelegate.swift */,
-				5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */,
 				5110A6E41FCD04B000ACFFA3 /* Main.storyboard */,
-				5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */,
 				5110A6E71FCD04B000ACFFA3 /* Assets.xcassets */,
 				5110A6E91FCD04B000ACFFA3 /* LaunchScreen.storyboard */,
 				5110A6EC1FCD04B000ACFFA3 /* Info.plist */,
@@ -113,6 +112,47 @@
 				5110A6F71FCD04B000ACFFA3 /* Info.plist */,
 			);
 			path = "31-设置导航栏Tests";
+			sourceTree = "<group>";
+		};
+		5110A7061FCD648900ACFFA3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5110A7071FCD648900ACFFA3 /* Tools */,
+				5110A7091FCD648900ACFFA3 /* Controller */,
+				5110A70B1FCD648900ACFFA3 /* Model */,
+				5110A70C1FCD648900ACFFA3 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5110A7071FCD648900ACFFA3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5110A7091FCD648900ACFFA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5110A70A1FCD648900ACFFA3 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5110A70B1FCD648900ACFFA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5110A70C1FCD648900ACFFA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		5B4D5C5524FA4264A85021FE /* Frameworks */ = {
@@ -284,8 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5110A6E11FCD04B000ACFFA3 /* AppDelegate.swift in Sources */,
-				5110A7031FCD151B00ACFFA3 /* UIColor-Extension.swift in Sources */,
-				5110A7011FCD12CC00ACFFA3 /* HomeViewController.swift in Sources */,
+				5110A70D1FCD648900ACFFA3 /* UIColor-Extension.swift in Sources */,
+				5110A70E1FCD648900ACFFA3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
