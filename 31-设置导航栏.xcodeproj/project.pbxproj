@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5110A6E11FCD04B000ACFFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A6E01FCD04B000ACFFA3 /* AppDelegate.swift */; };
-		5110A6E31FCD04B000ACFFA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A6E21FCD04B000ACFFA3 /* ViewController.swift */; };
 		5110A6E61FCD04B000ACFFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5110A6E41FCD04B000ACFFA3 /* Main.storyboard */; };
 		5110A6E81FCD04B000ACFFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5110A6E71FCD04B000ACFFA3 /* Assets.xcassets */; };
 		5110A6EB1FCD04B000ACFFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5110A6E91FCD04B000ACFFA3 /* LaunchScreen.storyboard */; };
 		5110A6F61FCD04B000ACFFA3 /* _1______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */; };
+		5110A7011FCD12CC00ACFFA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */; };
+		5110A7031FCD151B00ACFFA3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		5110A6DD1FCD04B000ACFFA3 /* 31-设置导航栏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31-设置导航栏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5110A6E01FCD04B000ACFFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5110A6E21FCD04B000ACFFA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5110A6E51FCD04B000ACFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5110A6E71FCD04B000ACFFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5110A6EA1FCD04B000ACFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		5110A6F11FCD04B000ACFFA3 /* 31-设置导航栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "31-设置导航栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1______Tests.swift"; sourceTree = "<group>"; };
 		5110A6F71FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				5110A6E01FCD04B000ACFFA3 /* AppDelegate.swift */,
-				5110A6E21FCD04B000ACFFA3 /* ViewController.swift */,
+				5110A7001FCD12CC00ACFFA3 /* HomeViewController.swift */,
 				5110A6E41FCD04B000ACFFA3 /* Main.storyboard */,
+				5110A7021FCD151A00ACFFA3 /* UIColor-Extension.swift */,
 				5110A6E71FCD04B000ACFFA3 /* Assets.xcassets */,
 				5110A6E91FCD04B000ACFFA3 /* LaunchScreen.storyboard */,
 				5110A6EC1FCD04B000ACFFA3 /* Info.plist */,
@@ -199,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5110A6E31FCD04B000ACFFA3 /* ViewController.swift in Sources */,
 				5110A6E11FCD04B000ACFFA3 /* AppDelegate.swift in Sources */,
+				5110A7031FCD151B00ACFFA3 /* UIColor-Extension.swift in Sources */,
+				5110A7011FCD12CC00ACFFA3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
