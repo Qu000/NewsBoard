@@ -14,6 +14,10 @@
 		5110A6F61FCD04B000ACFFA3 /* _1______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */; };
 		5110A70D1FCD648900ACFFA3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */; };
 		5110A70E1FCD648900ACFFA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110A70A1FCD648900ACFFA3 /* HomeViewController.swift */; };
+		51D4D6DC1FCE374D0011B0F5 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4D6DB1FCE374D0011B0F5 /* NetworkTools.swift */; };
+		51D4D6DE1FCE50990011B0F5 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4D6DD1FCE50990011B0F5 /* NewsModel.swift */; };
+		51D4D6E11FCE61820011B0F5 /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4D6DF1FCE61820011B0F5 /* NewsViewCell.swift */; };
+		51D4D6E21FCE61820011B0F5 /* NewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51D4D6E01FCE61820011B0F5 /* NewsViewCell.xib */; };
 		D44E8F4E01274537633ADE24 /* Pods_31______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DD550F4D88D319CCDA9015 /* Pods_31______.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,10 @@
 		5110A6F71FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		5110A70A1FCD648900ACFFA3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		51D4D6DB1FCE374D0011B0F5 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		51D4D6DD1FCE50990011B0F5 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		51D4D6DF1FCE61820011B0F5 /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		51D4D6E01FCE61820011B0F5 /* NewsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewCell.xib; sourceTree = "<group>"; };
 		64DD550F4D88D319CCDA9015 /* Pods_31______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_31______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C99705227FF7771FC73816 /* Pods-31-设置导航栏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.release.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.release.xcconfig"; sourceTree = "<group>"; };
 		9B586F1255E26F9F36B4378C /* Pods-31-设置导航栏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,9 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				5110A7071FCD648900ACFFA3 /* Tools */,
-				5110A7091FCD648900ACFFA3 /* Controller */,
 				5110A70B1FCD648900ACFFA3 /* Model */,
 				5110A70C1FCD648900ACFFA3 /* View */,
+				5110A7091FCD648900ACFFA3 /* Controller */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */,
+				51D4D6DB1FCE374D0011B0F5 /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 		5110A70B1FCD648900ACFFA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				51D4D6DD1FCE50990011B0F5 /* NewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 		5110A70C1FCD648900ACFFA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				51D4D6DF1FCE61820011B0F5 /* NewsViewCell.swift */,
+				51D4D6E01FCE61820011B0F5 /* NewsViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5110A6EB1FCD04B000ACFFA3 /* LaunchScreen.storyboard in Resources */,
+				51D4D6E21FCE61820011B0F5 /* NewsViewCell.xib in Resources */,
 				5110A6E81FCD04B000ACFFA3 /* Assets.xcassets in Resources */,
 				5110A6E61FCD04B000ACFFA3 /* Main.storyboard in Resources */,
 			);
@@ -323,9 +336,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D4D6DC1FCE374D0011B0F5 /* NetworkTools.swift in Sources */,
 				5110A6E11FCD04B000ACFFA3 /* AppDelegate.swift in Sources */,
 				5110A70D1FCD648900ACFFA3 /* UIColor-Extension.swift in Sources */,
+				51D4D6E11FCE61820011B0F5 /* NewsViewCell.swift in Sources */,
 				5110A70E1FCD648900ACFFA3 /* HomeViewController.swift in Sources */,
+				51D4D6DE1FCE50990011B0F5 /* NewsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

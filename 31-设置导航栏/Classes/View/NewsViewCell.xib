@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NewsViewCell" customModule="_1_设置导航栏" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VnV-a6-Ilc">
+                        <rect key="frame" x="15" y="8" width="100" height="73.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="nWV-Xb-Stp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新闻的label新闻的label新闻的label新闻的label新闻的label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry1-Iu-ZLJ">
+                        <rect key="frame" x="125" y="8" width="180" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网易新闻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts8-Ru-v1D">
+                        <rect key="frame" x="125" y="62" width="49.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="55跟帖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOV-Iw-vBI">
+                        <rect key="frame" x="265.5" y="62" width="39.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VnV-a6-Ilc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="5G6-Ry-5g0"/>
+                    <constraint firstItem="Ry1-Iu-ZLJ" firstAttribute="leading" secondItem="VnV-a6-Ilc" secondAttribute="trailing" constant="10" id="7ve-gI-MXF"/>
+                    <constraint firstItem="ts8-Ru-v1D" firstAttribute="leading" secondItem="Ry1-Iu-ZLJ" secondAttribute="leading" id="aDV-EG-6CI"/>
+                    <constraint firstItem="VnV-a6-Ilc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="bhD-6s-gij"/>
+                    <constraint firstItem="zOV-Iw-vBI" firstAttribute="trailing" secondItem="Ry1-Iu-ZLJ" secondAttribute="trailing" id="c9a-Dw-xb8"/>
+                    <constraint firstItem="ts8-Ru-v1D" firstAttribute="bottom" secondItem="VnV-a6-Ilc" secondAttribute="bottom" constant="-5" id="cjJ-9Z-1H3"/>
+                    <constraint firstAttribute="bottom" secondItem="VnV-a6-Ilc" secondAttribute="bottom" constant="8" id="dn5-zK-Sq2"/>
+                    <constraint firstAttribute="trailing" secondItem="Ry1-Iu-ZLJ" secondAttribute="trailing" constant="15" id="gKU-sB-dCN"/>
+                    <constraint firstItem="Ry1-Iu-ZLJ" firstAttribute="top" secondItem="VnV-a6-Ilc" secondAttribute="top" id="ohb-fk-ZHv"/>
+                    <constraint firstItem="zOV-Iw-vBI" firstAttribute="bottom" secondItem="ts8-Ru-v1D" secondAttribute="bottom" id="txN-cT-rNo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iconImageView" destination="VnV-a6-Ilc" id="NsA-mc-7ZD"/>
+                <outlet property="replyCountLabel" destination="zOV-Iw-vBI" id="lJd-kD-16H"/>
+                <outlet property="sourceLabel" destination="ts8-Ru-v1D" id="kQ2-yd-57l"/>
+                <outlet property="titleLabel" destination="Ry1-Iu-ZLJ" id="Ahq-CB-WW0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
