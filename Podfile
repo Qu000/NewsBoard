@@ -6,5 +6,6 @@ use_frameworks!
 target '31-设置导航栏' do
 
 pod 'Alamofire'
+pod 'Kingfisher'
 
 end

@@ -16,13 +16,12 @@ class NewsModel: NSObject {
     var imgsrc : String = ""
    
     // MARK: - 定义字典转模型的构造函数
-    init(dict : [String : Any]){
+    init(dict : [String : NSObject]){
         super.init()
         
         setValuesForKeys(dict)
     }
-
-    override func setValue(_ value: Any?, forUndefinedKey key: String) {
-        //只用到了部分属性，有些属性并没有用到，如果不重写，就会崩掉
-    }
+    //只用到了部分属性，有些属性并没有用到，如果不重写，就会崩掉
+    override func setValue(_ value: Any?, forUndefinedKey key: String) {}
+   
 }

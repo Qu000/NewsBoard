@@ -39,7 +39,7 @@
 		5110A6EA1FCD04B000ACFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5110A6EC1FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5110A6F11FCD04B000ACFFA3 /* 31-设置导航栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "31-设置导航栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1______Tests.swift"; sourceTree = "<group>"; };
+		5110A6F51FCD04B000ACFFA3 /* _1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1______Tests.swift; sourceTree = "<group>"; };
 		5110A6F71FCD04B000ACFFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5110A7081FCD648900ACFFA3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		5110A70A1FCD648900ACFFA3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		51D4D6DD1FCE50990011B0F5 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		51D4D6DF1FCE61820011B0F5 /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
 		51D4D6E01FCE61820011B0F5 /* NewsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewCell.xib; sourceTree = "<group>"; };
-		64DD550F4D88D319CCDA9015 /* Pods_31______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_31______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DD550F4D88D319CCDA9015 /* Pods_31______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_31______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C99705227FF7771FC73816 /* Pods-31-设置导航栏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.release.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.release.xcconfig"; sourceTree = "<group>"; };
 		9B586F1255E26F9F36B4378C /* Pods-31-设置导航栏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-31-设置导航栏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,10 +319,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-31-设置导航栏/Pods-31-设置导航栏-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

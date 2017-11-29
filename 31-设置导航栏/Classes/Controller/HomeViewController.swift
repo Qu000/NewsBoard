@@ -38,7 +38,7 @@ class HomeViewController: UIViewController {
         setupNavigationBar()
         
         // 2.添加TableView
-        view.addSubview(tableView)
+        self.view.addSubview(tableView)
         
         // 3.请求数据
         loadData()
@@ -73,16 +73,18 @@ extension HomeViewController {
 // MARK: - 网络数据请求
 extension HomeViewController {
     fileprivate func loadData() {
-        NetworkTools.requestData(URLString: "http://c.m.163.com/nc/article/list/T1348649079062/0-20.html", type: .get) { (result : Any) in
+        NetworkTools.requestData(URLString: "http://c.m.163.com/nc/article/list/T1348649079062/0-20.html", type: .get) { (result) in
 
             //1.将Any类型转成字典类型
-            guard let resultDict = result as? [String : Any] else { return }
+            guard let resultDict = result as? [String : NSObject] else { return }
             //2.根据T1348649079062的key取出内容
-            guard let dataArray = resultDict["T1348649079062"] as? [[String : Any]] else { return }
+            guard let dataArray = resultDict["T1348649079062"] as? [[String : NSObject]] else { return }
             //3.遍历字典，将字典转成模型对象
             for dict in dataArray {
                 self.newsModels.append(NewsModel(dict: dict))
+                print(dict)
             }
+            
             //4.刷新表格
             self.tableView.reloadData()
         }

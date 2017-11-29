@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class NewsViewCell: UITableViewCell {
 
@@ -25,6 +26,10 @@ class NewsViewCell: UITableViewCell {
             titleLabel.text = newsModel?.title
             sourceLabel.text = newsModel?.source
             replyCountLabel.text = "\(newsModel?.replyCount ?? 0)人跟帖"
+            
+            let iconURL = URL(string : newsModel?.imgsrc ?? "")
+            iconImageView.kf.setImage(with: iconURL)
+            
         }
     }
 }
